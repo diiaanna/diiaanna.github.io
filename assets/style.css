@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(7, 3, 3);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+header {
+  background-color: rgb(22, 1, 1);
+  position: relative;
+  width: 100vw;
+  top: 7px;
+  left: 0px;
+  padding: 20px;
+}
+
+header .container div {
+  display: grid;
+  align-items: center;
+}
+
+header ul.header-menu {
+  display: flex;
+  list-style: none;
+  margin-left: 16%;
+  text-align: justify;
+}
+
+header ul.header-menu li {
+  padding: 0 35px 0 10px;
+}
+
+header ul.header-menu a {
+  color: red;
+  text-decoration: none;
+}
+header ul.header-menu a:hover {
+  color: green;
+}
+
+h1 {
+  color: rgb(216, 197, 202);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  font-style: oblique;
+  margin-bottom: 0;
+  margin-top: 0%;
+  margin-right: 5%;
+}
+
+.container {
+  color: antiquewhite;
+}
+.about {
+  display: grid;
+  justify-content: first baseline;
+  margin: 40px 70px;
+  background-color: rgb(39, 5, 22);
+  color: rgb(184, 179, 171);
+  padding: 40px;
+  border-radius: 60px;
+}
+
+h2 {
+  color: rgb(216, 197, 202);
+  font-style: oblique;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.education {
+  padding: 700x;
+  border-radius: 0px;
+  border: 6px dashed #1e0212;
+  text-align: center;
+  margin: 28px 0px;
+  color: rgb(184, 179, 171);
+}
+
+h3 {
+  color: rgb(226, 210, 215);
+  font-style: oblique;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.hobby {
+  display: grid;
+  justify-content: first baseline;
+  margin: 30px px;
+  background-color: rgb(39, 5, 22);
+  color: rgb(184, 179, 171);
+  padding: 30px;
+}
+
+.contacts {
+  display: grid;
+  justify-content: center;
+  margin: px px;
+  background-color: rgb(22, 1, 1);
+  color: rgb(184, 179, 171);
+  padding: px;
+  border-radius: 60px;
+}
